@@ -36,6 +36,12 @@ h2 {
   gap: 0.5rem;
 }
 
+button {
+  width: 30%;
+  font-size: 2rem;
+  box-shadow: 3px 3px #000;
+}
+
 .table-head {
   width: 100%;
   display: flex;
@@ -87,10 +93,4 @@ li {
 
 li:nth-of-type(2n-1) {
   background-color: #ddd;
-}
-
-button {
-  width: 30%;
-  font-size: 2rem;
-  box-shadow: 3px 3px #000;
 }
