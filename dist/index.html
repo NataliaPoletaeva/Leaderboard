@@ -5,11 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <title>Leaderboard</title>
 <script defer src="bundle.js"></script></head>
 
 <body>
-
+    <main>
+        <h1>Leaderboard</h1>
+        <div class="table">
+            <h2>Recent scores</h2>
+            <button type="button">Refresh</button>
+            <ul class="leaderboard">
+                <li>Name: 85</li>
+                <li>Name: 37</li>
+                <li>Name: 62</li>
+            </ul>
+        </div>
+        <div class="scores-form">
+            <h2>Add your score</h2>
+            <form>
+                <input type="text" class="name" placeholder="Your name">
+                <input type="text" class="score" placeholder="Your score">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
 </body>
 
 </html>
