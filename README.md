@@ -17,7 +17,7 @@ This app is the solo project from the module 2 of the Microverse curriculum.
 
 ## Live Demo
 
-[Click here to test the site yourself!](https://nataliapoletaeva.github.io/Leaderboard/dist)
+[Click here to test the site yourself!](https://elastic-almeida-ca1a8a.netlify.app/)
 
 ## Getting Started
 
