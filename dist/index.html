@@ -16,24 +16,29 @@
 <body>
     <main>
         <h1>Leaderboard</h1>
-        <div class="table">
-            <h2>Recent scores</h2>
-            <button type="button">Refresh</button>
-            <ul class="leaderboard">
-                <li>Name: 85</li>
-                <li>Name: 37</li>
-                <li>Name: 62</li>
-            </ul>
-        </div>
-        <div class="scores-form">
-            <h2>Add your score</h2>
-            <form>
-                <input type="text" class="name" placeholder="Your name">
-                <input type="text" class="score" placeholder="Your score">
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+        <section class="container">
+            <div class="table">
+                <div class="table-head">
+                    <h2>Recent scores</h2>
+                    <button type="button">Refresh</button>
+                </div>
+                <ul class="leaderboard">
+                    <li>Name: 85</li>
+                    <li>Name: 37</li>
+                    <li>Name: 62</li>
+                </ul>
+            </div>
+            <div class="scores-form">
+                <h2>Add your score</h2>
+                <form>
+                    <input type="text" class="name" placeholder="Your name">
+                    <input type="text" class="score" placeholder="Your score">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 
 </html>
