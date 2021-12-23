@@ -3,6 +3,8 @@
   margin: 0;
   font-family: 'Cuprum', sans-serif;
   font-style: normal;
+  background-color: #cffcff;
+  color: #082186;
 }
 
 h1 {
@@ -37,9 +39,20 @@ h2 {
 }
 
 button {
+  background-color: #88c9ff;
   width: 40%;
   font-size: 2rem;
   box-shadow: 3px 3px #000;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5cb5ff;
+}
+
+button:active {
+  background-color: #082186;
+  color: #cffcff;
 }
 
 .table-head {
@@ -79,17 +92,20 @@ input {
   font-size: 2rem;
   line-height: 1.5rem;
   padding: 0.5rem;
+  background-color: #fff;
 }
 
 input::placeholder {
-  color: rgb(102, 97, 97);
+  color: #666161;
 }
 
 li {
+  color: #171738;
   font-size: 2rem;
   padding: 0.3rem 0.6rem;
+  background-color: #fff;
 }
 
 li:nth-of-type(2n-1) {
-  background-color: #ddd;
+  background-color: #d6efff;
 }
