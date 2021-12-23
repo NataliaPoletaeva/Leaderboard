@@ -4,7 +4,7 @@
 
 > This is a simple app to save results of a little game and see each participant's score. 
 
-![](https://user-images.githubusercontent.com/91270103/146974027-a5e17039-a8cc-4dcc-ad8c-8a399ea9cf29.png)
+![](https://user-images.githubusercontent.com/91270103/147261259-836fa499-0e3d-4502-ab5a-7dced545cb6e.png)
 
 This app is the solo project from the module 2 of the Microverse curriculum.
 
